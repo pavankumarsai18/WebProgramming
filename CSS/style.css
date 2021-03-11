@@ -1,1 +1,48 @@
+body{
+    background-color: whitesmoke;
+}
+
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+.loginForm
+{
+    background-color:  white;
+    margin: auto;
+    width:50%;
+    border-radius: 5px;
+}
+
+#signIn
+{
+    padding-top:5%;
+    margin: auto;
+    width:fit-content;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.login-content
+{
+    margin: auto; 
+    width:fit-content;
+    padding: 5% 10% 10% 15%;
+
+    /* padding-bottom: 10%; */
+}
+#loginBtn{
+    background-color:rgb(15, 107, 226);
+    padding:2%;
+    font-weight: 100;
+    color:white;
+    border-radius: 3px;
+    border:1px;
+    border-color: rgb(4, 4, 173);
+
+}
 
