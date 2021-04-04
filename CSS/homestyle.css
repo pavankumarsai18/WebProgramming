@@ -1,0 +1,106 @@
+body {
+    background-color: whitesmoke;
+}
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+.menubar
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    background-color:  white;
+    margin: auto;
+    width:50%;
+    border-radius: 5px;
+}
+.menu
+{
+    background-color: white;
+}
+#search
+{
+    margin: auto;
+    width:fit-content;
+    text-align: center;
+    font-size: 150%;
+}
+
+.navbar {
+    border: none;
+    background:white;
+    display: table;
+    width: auto;
+    left: 50%;
+    margin: 0 auto;
+
+  }
+
+  .navigation{
+    text-align: center;
+    display: block;
+    height: auto;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .horizontal a{
+    list-style-type: none;
+    display: inline;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    padding-left: 0;
+    }
+    .horizontal li{
+        display:inline;
+        float: none;
+      }
+      .horizontal a{
+        text-decoration: none;
+        float: left;
+        padding: 10px 20px;
+        display: block;
+        color: black;
+        font-size: 0.8em;
+        font-family: Arial;
+        cursor:pointer;
+        margin: 8px;
+        font-size: 100%;
+
+      }
+    .horizontal a:hover{
+        background-color:black;
+        color:white;
+    }
+
+    .searchbar{
+        text-align: center;
+        color: rgb(22, 20, 139);
+    }
+    
+    #search{
+        height: 30px;
+        width: 40%;
+        font-size: 29px;
+    }
+
+    .media{
+        text-align: center;
+        color: rgb(22, 20, 139);
+    }
+
+.mediaForm
+{
+    background-color:  white;
+    margin: auto;
+    width:50%;
+    border-radius: 5px;
+}
