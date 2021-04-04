@@ -1,0 +1,142 @@
+body {
+    background-color: whitesmoke;
+}
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+.menubar
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    background-color:  white;
+    margin: auto;
+    width:50%;
+    border-radius: 5px;
+}
+.menu
+{
+    background-color: white;
+}
+#search
+{
+    margin: auto;
+    width:fit-content;
+    text-align: center;
+    font-size: 150%;
+}
+
+.navbar {
+    border: none;
+    background: #fff;
+    display: table;
+    width: auto;
+    left: 50%;
+    margin: 0 auto;
+  
+  }
+  
+  .navigation{
+    text-align: center;
+    display: block;
+    height: auto;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+  
+  .horizontal a{
+    list-style-type: none;
+    display: inline;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    padding-left: 0;
+    }
+    .horizontal li{
+        display:inline;
+        float: none;
+      }
+      .horizontal a{
+        text-decoration: none;
+        float: left;
+        padding: 10px 20px;
+        display: block;
+        color: black;
+        font-size: 0.8em;
+        font-family: Arial;
+        cursor:pointer;
+        margin: 8px;
+        font-size: 100%;
+
+      }
+    .horizontal a:hover{
+        background-color:black;
+        color:white;
+    }
+    .center 
+    {
+        text-align: center;
+        font-family: Arial;
+
+    }
+    .row {
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+    
+    }
+    
+    .subrow {
+        margin-top: 10px;
+    }
+    .containter
+    {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin: 50% auto 0;
+    }
+    .card
+    {
+        width:280px;
+        height: 200px;
+        background-color: white;
+        margin:5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+
+    }
+    .text
+    {
+        padding: 70px 0;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .frontandback
+    {
+        margin: 5px;
+        display: flex;
+
+    }
+    .flexitem
+    {
+        flex:1;
+    }
+    textarea
+    {
+        /* display: inline-block; */
+        height:199px;
+        width:270px;
+        border-radius: 10px;
+    }
+    *
+    {
+        box-sizing: border-box;
+    }
